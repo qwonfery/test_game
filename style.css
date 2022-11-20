@@ -1,0 +1,51 @@
+.field{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 125px;
+}
+
+.hint{
+    position: relative;
+    left: 510px;
+}
+
+.cell, .cell_a,.cell_b,.cell_c, .block, .empty{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cell_a {
+    background: red;
+}
+
+.cell_b {
+    background: green;
+}
+
+.cell_c {
+    background: blue;
+}
+
+.block {
+    background: gray;
+}
+
